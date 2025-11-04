@@ -15,3 +15,7 @@ class Cube {
         return Math.pow(this.length,3);
     }
 }
+
+module.exports = {
+    Cube:Cube
+}
